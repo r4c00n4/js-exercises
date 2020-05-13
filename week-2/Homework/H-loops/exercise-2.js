@@ -9,7 +9,7 @@ Exercise 2-a:
   Can you change so that it counts down from 10 to 1?
   */
 
-  for(let number = 1; number <= 10; number++) {
+  for(let number = 10; number >= 1; number--) {
       console.log(number);
   }
 
@@ -44,11 +44,13 @@ Exercise 2-b:
 
   */
 
-  let glass = 0;
+  let glass = 4;
 
   // add your code here, starting with: for(...) {...}
 
- 
+  for (let i = 0; i< glass; i++){
+    console.log("drinking glass of water")
+  }
      /* 
     EXPECTED RESULT
     ---------------
