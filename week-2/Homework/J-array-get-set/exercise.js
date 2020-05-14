@@ -5,13 +5,12 @@
 */
 
 function first(arr) {
-  arr = numbers[0]
-  return arr; // complete this statement
+   return arr [0]; // complete this statement
 }
 
 function last(arr) {
-  arr = arr.slice(-1)[0]
-  return arr; // complete this statement
+  return arr [arr.length -1]
+  // complete this statement
 }
 
 /* 

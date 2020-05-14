@@ -6,36 +6,23 @@
 */
 
 function isNegative(num) {
-  if (num > 0) {
-    return false;
-  } else {
-    return true;
-  }
+ 
+    return (num < 0);
 }
 
 function isBetween5and10(num1) {
-  if (num1 >= 5 && num1 <= 10){
-    return true;
-  }else
-  return false;
+    return (num1 >= 5 && num1 <= 10)
 }
 
 function isShortName (name){
-  if (name.length <= 8 && name.length >0){
-    return true;
-  }else
-  return false;
+
+  return (name.length <= 8)
 }
 
 function startsWithD(name1) {
-  if( name1.includes("D")) {
-    return true;
-  }else {
-    return false;
-  }
-  
-
+    return (name1.charAt(0) === "D")
 }
+  
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

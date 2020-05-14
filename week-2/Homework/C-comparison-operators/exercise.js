@@ -10,7 +10,8 @@ var mentorCount = 9;
 var moreStudentsThanMentors = mentorCount < studentCount; // finish this statement
 
 var roomMaxCapacity = 25;
-var enoughSpaceInRoom = roomMaxCapacity !== enoughSpaceInRoom; // finish this statement
+var total = studentCount + mentorCount;
+var enoughSpaceInRoom = roomMaxCapacity >= total; // finish this statement
 
 var personA = "Daniel";
 var personB = "Irina";
