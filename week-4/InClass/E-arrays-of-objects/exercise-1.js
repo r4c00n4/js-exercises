@@ -25,11 +25,13 @@ WRITE YOUR CODE BELOW
 */
 
 
-var persons = // Complete here
-
-var personNames = // Complete here
-
-var personsYoungerThan28YearsOld = // Complete here
+var persons = [person1,person2,person3]// Complete here
+console.log(persons);
+var personNames = persons.map(person=>{return person.name})// Complete here
+console.log(personNames)
+var personsYoungerThan28YearsOld =  function youngerThan25(year){
+    return 
+}// Complete here
 
 
 /*
