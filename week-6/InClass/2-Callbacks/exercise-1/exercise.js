@@ -10,3 +10,11 @@ Update your code to make the colour change every 5 seconds to something differen
 
 ================
 */
+
+function changeColour(){
+    document.body.style.backgroundColor = "orange";
+}
+setTimeout(changeColour , 5000);
+
+var colourUpdate = setInterval(changeColour
+    , 5000);
