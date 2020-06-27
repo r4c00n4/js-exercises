@@ -11,6 +11,5 @@ function capitaliseName(name){
 
 let myName = "santanu";
 
-capitaliseName(myName);
 
-console.log(myName);
+console.log(capitaliseName(myName));
