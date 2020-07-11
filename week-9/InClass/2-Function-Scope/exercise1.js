@@ -7,3 +7,4 @@ function greetUser(name) {
 
 greetUser("Naima");
 console.log(greeting);
+// greeting is a block scoop and can't be used outside the function

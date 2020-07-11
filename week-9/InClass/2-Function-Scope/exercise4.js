@@ -9,3 +9,4 @@ function f1() {
 
 console.log(f1());
 console.log(y);
+// y is defined in a block scoop

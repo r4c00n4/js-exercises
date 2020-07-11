@@ -9,7 +9,7 @@ function sayHello(name) {
   let greeting = "Hi ";
   console.log(greeting + name);
 }
-
+// it is declared inside the function and can't be changed as it is a block scoop and you can only declare with "let" once
 sayHello("Etzali");
 
 const goodbye = "Au revoir ";
@@ -18,5 +18,5 @@ const personName = "Emilia";
 function sayGoodbye(name) {
   console.log(goodbye + personName);
 }
-
+// const value can't be changed even tho we calling the function with Gianluca name but we logging the value of goodbye + personName
 sayGoodbye("Gianluca");
